@@ -4,10 +4,14 @@
   "description": "Global Popular apps shortcuts",
   "main": [
     {
+      "required": [
+        "com.google.android.youtube",
+        "app.revanced.android.youtube"
+      ],
       "name": "Youtube-Search",
       "description": "Youtube Search",
       "type": "scheme",
-      "uri": "vnd.youtube/results"
+      "uri": "vnd.youtube://results"
     },
     {
       "required": [
