@@ -8,19 +8,29 @@
         "com.google.android.youtube",
         "app.revanced.android.youtube"
       ],
-      "name": "Youtube-Search",
+      "name": "Youtube Search",
       "description": "Youtube Search",
       "type": "scheme",
-      "uri": "vnd.youtube://results"
+      "uri": "vnd.youtube://results",
+      "keywords": [
+        "youtube",
+        "ytb",
+        "search"
+      ]
     },
     {
       "required": [
         "com.instagram.android"
       ],
-      "name": "Instagram-Search",
+      "name": "Instagram Search",
       "description": "Instagram Search",
       "type": "scheme",
-      "uri": "instagram://search"
+      "uri": "instagram://search",
+      "keywords": [
+        "instagram",
+        "ig",
+        "search"
+      ]
     }
   ]
 }
