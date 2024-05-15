@@ -1,0 +1,14 @@
+{
+  "name": "krude-extensions",
+  "module": "server.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "bun server.ts --watch"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
