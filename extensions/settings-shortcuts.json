@@ -1,0 +1,91 @@
+{
+  "name": "setting-shortcuts",
+  "version": "1.0.0",
+  "description": "System Settings shortcuts",
+  "main": [
+    {
+      "name": "设置-WiFi",
+      "description": "Wifi Setting",
+      "type": "action",
+      "uri": "android.settings.WIFI_SETTINGS"
+    },
+    {
+      "name": "设置-蓝牙",
+      "description": "Bluetooth Setting",
+      "type": "action",
+      "uri": "android.settings.BLUETOOTH_SETTINGS"
+    },
+    {
+      "name": "设置-应用",
+      "description": "App Setting",
+      "type": "action",
+      "uri": "android.settings.APPLICATION_SETTINGS"
+    },
+    {
+      "name": "设置-开发者选项",
+      "description": "Developer Options",
+      "type": "action",
+      "uri": "android.settings.APPLICATION_DEVELOPMENT_SETTINGS"
+    },
+    {
+      "name": "设置-日期时间",
+      "description": "Date Time Setting",
+      "type": "action",
+      "uri": "android.settings.DATE_SETTINGS"
+    },
+    {
+      "name": "设置-语言",
+      "description": "Language Setting",
+      "type": "action",
+      "uri": "android.settings.LOCALE_SETTINGS"
+    },
+    {
+      "name": "设置-位置",
+      "description": "Location Setting",
+      "type": "action",
+      "uri": "android.settings.LOCATION_SOURCE_SETTINGS"
+    },
+    {
+      "name": "设置-存储",
+      "description": "Storage Setting",
+      "type": "action",
+      "uri": "android.settings.INTERNAL_STORAGE_SETTINGS"
+    },
+    {
+      "name": "设置-通知",
+      "description": "Notification Setting",
+      "type": "action",
+      "uri": "android.settings.ACTION_NOTIFICATION_LISTENER_SETTINGS"
+    },
+    {
+      "name": "设置-安全",
+      "description": "Security Setting",
+      "type": "action",
+      "uri": "android.settings.SECURITY_SETTINGS"
+    },
+    {
+      "name": "设置-声音",
+      "description": "Sound Setting",
+      "type": "action",
+      "uri": "android.settings.SOUND_SETTINGS"
+    },
+    {
+      "name": "设置-显示",
+      "description": "Display Setting",
+      "type": "action",
+      "uri": "android.settings.DISPLAY_SETTINGS"
+    },
+    {
+      "name": "设置-无障碍",
+      "description": "Accessibility Setting",
+      "type": "action",
+      "uri": "android.settings.ACCESSIBILITY_SETTINGS"
+    },
+    {
+      "name": "设置-应用权限",
+      "description": "App Permission Setting",
+      "type": "action",
+      "uri": "android.settings.MANAGE_ALL_APPLICATIONS_SETTINGS"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "name": "china-apps-shortcuts",
+  "version": "1.0.0",
+  "description": "Popular China apps shortcuts",
+  "main": [
+    {
+      "required": [
+        "com.eg.android.AlipayGphone"
+      ],
+      "name": "支付宝-扫一扫",
+      "description": "Alipay QR Scan",
+      "type": "scheme",
+      "uri": "alipayqr://platformapi/startapp?saId=10000007"
+    },
+    {
+      "required": [
+        "com.eg.android.AlipayGphone"
+      ],
+      "name": "支付宝-收付款",
+      "description": "Alipay Pay/Collect",
+      "type": "scheme",
+      "uri": "alipayqr://platformapi/startapp?saId=20000056"
+    },
+    {
+      "required": [
+        "com.eg.android.AlipayGphone"
+      ],
+      "name": "支付宝-出行",
+      "description": "Alipay Transport",
+      "type": "scheme",
+      "uri": "alipayqr://platformapi/startapp?saId=200011235"
+    },
+    {
+      "required": [
+        "com.eg.android.AlipayGphone"
+      ],
+      "name": "支付宝-菜鸟",
+      "description": "Alipay Cai Niao",
+      "type": "scheme",
+      "uri": "alipayqr://platformapi/startapp?saId=2021001141626787"
+    },
+    {
+      "required": [
+        "com.tencent.mm"
+      ],
+      "name": "微信-扫一扫",
+      "description": "Wechat QR Scan",
+      "type": "intent",
+      "data": {
+        "package": "com.tencent.mm",
+        "class": "com.tencent.mm.ui.LauncherUI",
+        "extra": {
+          "LauncherUI.From.Scaner.Shortcut": true
+        },
+        "flags": 335544320,
+        "action": "android.intent.action.VIEW"
+      }
+    },
+    {
+      "required": [
+        "com.sankuai.meituan"
+      ],
+      "name": "美团-扫一扫",
+      "description": "Meituan QR Scan",
+      "type": "scheme",
+      "uri": "imeituan://www.meituan.com/scanQRCode"
+    },
+    {
+      "required": [
+        "com.sankuai.meituan"
+      ],
+      "name": "美团-搜索",
+      "description": "Meituan Search",
+      "type": "scheme",
+      "uri": "imeituan://www.meituan.com/search"
+    },
+    {
+      "required": [
+        "com.sankuai.meituan"
+      ],
+      "name": "美团-订单",
+      "description": "Meituan Order Center List",
+      "type": "scheme",
+      "uri": "imeituan://www.meituan.com/ordercenterlist"
+    },
+    {
+      "required": [
+        "com.sankuai.meituan"
+      ],
+      "name": "美团-收藏",
+      "description": "Meituan Collection",
+      "type": "scheme",
+      "uri": "imeituan://www.meituan.com/collection/list"
+    },
+    {
+      "required": [
+        "com.sankuai.meituan"
+      ],
+      "name": "美团-外卖",
+      "description": "Meituan Waimai",
+      "type": "scheme",
+      "uri": "imeituan://www.meituan.com/search?q=外卖"
+    },
+    {
+      "required": [
+        "com.taobao.taobao"
+      ],
+      "name": "淘宝-扫一扫",
+      "description": "Taobao QR Scan",
+      "type": "scheme",
+      "uri": "taobao://tb.cn/n/scancode"
+    },
+    {
+      "required": [
+        "com.taobao.taobao"
+      ],
+      "name": "淘宝-搜索",
+      "description": "Taobao Search",
+      "type": "scheme",
+      "uri": "taobao://main.m.taobao.com/search/index.html"
+    },
+    {
+      "required": [
+        "com.xunmeng.pinduoduo"
+      ],
+      "name": "拼多多-搜索",
+      "description": "Pinduoduo QR Search",
+      "type": "scheme",
+      "uri": "pinduoduo://com.xunmeng.pinduoduo/search_result.html"
+    },
+    {
+      "required": [
+        "com.ss.android.ugc.aweme"
+      ],
+      "name": "抖音-搜索",
+      "description": "Douyin Search",
+      "type": "scheme",
+      "uri": "snssdk1128://search/tabs"
+    },
+    {
+      "required": [
+        "com.xingin.xhs"
+      ],
+      "name": "小红书-搜索",
+      "description": "Xiaohongshu Search",
+      "type": "scheme",
+      "uri": "xhsdiscover://search/recommend"
+    }
+  ]
+}
