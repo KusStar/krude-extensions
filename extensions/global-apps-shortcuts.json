@@ -1,0 +1,22 @@
+{
+  "name": "global-apps-shortcuts",
+  "version": "1.0.0",
+  "description": "Global Popular apps shortcuts",
+  "main": [
+    {
+      "name": "Youtube-Search",
+      "description": "Youtube Search",
+      "type": "scheme",
+      "uri": "vnd.youtube/results"
+    },
+    {
+      "required": [
+        "com.instagram.android"
+      ],
+      "name": "Instagram-Search",
+      "description": "Instagram Search",
+      "type": "scheme",
+      "uri": "instagram://search"
+    }
+  ]
+}
