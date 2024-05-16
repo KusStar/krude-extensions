@@ -31,6 +31,24 @@
         "ig",
         "search"
       ]
+    },
+    {
+      "required": [
+        "com.openai.chatgpt"
+      ],
+      "name": "ChatGPT Voice Assistant",
+      "description": "ChatGPT Voice Assistant",
+      "type": "intent",
+      "data": {
+        "package": "com.openai.chatgpt",
+        "class": "com.openai.voice.assistant.AssistantActivity"
+      },
+      "keywords": [
+        "ai",
+        "chatgpt",
+        "assistant",
+        "voice"
+      ]
     }
   ]
 }

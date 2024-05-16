@@ -104,11 +104,11 @@
           "LauncherUI.From.Scaner.Shortcut": true
         },
         "flags": 335544320,
-        "action": "android.intent.action.VIEW",
-        "keywords": [
-          "扫码"
-        ]
-      }
+        "action": "android.intent.action.VIEW"
+      },
+      "keywords": [
+        "扫码"
+      ]
     },
     {
       "required": [
