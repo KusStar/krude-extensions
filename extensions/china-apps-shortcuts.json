@@ -202,6 +202,15 @@
       "description": "Xiaohongshu Search",
       "type": "scheme",
       "uri": "xhsdiscover://search/recommend"
+    },
+    {
+      "required": [
+        "com.autonavi.minimap"
+      ],
+      "name": "高德-我的位置",
+      "description": "Gaode Amap My Location",
+      "type": "scheme",
+      "uri": "androidamap://myLocation?sourceApplication=softname"
     }
   ]
 }
