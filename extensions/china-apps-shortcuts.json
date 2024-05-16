@@ -10,7 +10,10 @@
       "name": "支付宝-扫一扫",
       "description": "Alipay QR Scan",
       "type": "scheme",
-      "uri": "alipayqr://platformapi/startapp?saId=10000007"
+      "uri": "alipayqr://platformapi/startapp?saId=10000007",
+      "keywords": [
+        "扫码"
+      ]
     },
     {
       "required": [
@@ -19,7 +22,19 @@
       "name": "支付宝-收付款",
       "description": "Alipay Pay/Collect",
       "type": "scheme",
-      "uri": "alipayqr://platformapi/startapp?saId=20000056"
+      "uri": "alipayqr://platformapi/startapp?saId=20000056",
+      "keywords": [
+        "付款码"
+      ]
+    },
+    {
+      "required": [
+        "com.eg.android.AlipayGphone"
+      ],
+      "name": "支付宝-收款码",
+      "description": "Alipay Collect QR Code",
+      "type": "scheme",
+      "uri": "alipayqr://platformapi/startapp?saId=20000123"
     },
     {
       "required": [
@@ -28,7 +43,12 @@
       "name": "支付宝-出行",
       "description": "Alipay Transport",
       "type": "scheme",
-      "uri": "alipayqr://platformapi/startapp?saId=200011235"
+      "uri": "alipayqr://platformapi/startapp?saId=200011235",
+      "keywords": [
+        "公交",
+        "地铁",
+        "乘车码"
+      ]
     },
     {
       "required": [
@@ -37,7 +57,38 @@
       "name": "支付宝-菜鸟",
       "description": "Alipay Cai Niao",
       "type": "scheme",
-      "uri": "alipayqr://platformapi/startapp?saId=2021001141626787"
+      "uri": "alipayqr://platformapi/startapp?saId=2021001141626787",
+      "keywords": [
+        "快递",
+        "物流",
+        "驿站"
+      ]
+    },
+    {
+      "required": [
+        "com.eg.android.AlipayGphone"
+      ],
+      "name": "支付宝-手机充值",
+      "description": "Alipay Cai Niao",
+      "type": "scheme",
+      "uri": "alipayqr://platformapi/startapp?appId=10000003",
+      "keywords": [
+        "充话费"
+      ]
+    },
+    {
+      "required": [
+        "com.eg.android.AlipayGphone"
+      ],
+      "name": "支付宝-生活缴费",
+      "description": "Alipay Cai Niao",
+      "type": "scheme",
+      "uri": "alipayqr://platformapi/startapp?appId=20000193",
+      "keywords": [
+        "水电煤",
+        "充电费",
+        "充水费"
+      ]
     },
     {
       "required": [
@@ -53,7 +104,10 @@
           "LauncherUI.From.Scaner.Shortcut": true
         },
         "flags": 335544320,
-        "action": "android.intent.action.VIEW"
+        "action": "android.intent.action.VIEW",
+        "keywords": [
+          "扫码"
+        ]
       }
     },
     {
@@ -63,7 +117,10 @@
       "name": "美团-扫一扫",
       "description": "Meituan QR Scan",
       "type": "scheme",
-      "uri": "imeituan://www.meituan.com/scanQRCode"
+      "uri": "imeituan://www.meituan.com/scanQRCode",
+      "keywords": [
+        "扫码"
+      ]
     },
     {
       "required": [
