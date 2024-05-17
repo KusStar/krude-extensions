@@ -4,6 +4,7 @@
   "description": "Popular China apps shortcuts",
   "main": [
     {
+      "id": "alipay-scan",
       "required": [
         "com.eg.android.AlipayGphone"
       ],
@@ -16,6 +17,7 @@
       ]
     },
     {
+      "id": "alipay-pay-collect",
       "required": [
         "com.eg.android.AlipayGphone"
       ],
@@ -28,6 +30,7 @@
       ]
     },
     {
+      "id": "alipay-collect",
       "required": [
         "com.eg.android.AlipayGphone"
       ],
@@ -37,6 +40,7 @@
       "uri": "alipayqr://platformapi/startapp?saId=20000123"
     },
     {
+      "id": "alipay-transport",
       "required": [
         "com.eg.android.AlipayGphone"
       ],
@@ -51,6 +55,7 @@
       ]
     },
     {
+      "id": "alipay-cainiao",
       "required": [
         "com.eg.android.AlipayGphone"
       ],
@@ -65,11 +70,12 @@
       ]
     },
     {
+      "id": "alipay-phone-bill",
       "required": [
         "com.eg.android.AlipayGphone"
       ],
       "name": "支付宝-手机充值",
-      "description": "Alipay Cai Niao",
+      "description": "Alipay Phone Bill",
       "type": "scheme",
       "uri": "alipayqr://platformapi/startapp?appId=10000003",
       "keywords": [
@@ -77,11 +83,12 @@
       ]
     },
     {
+      "id": "alipay-life-bill",
       "required": [
         "com.eg.android.AlipayGphone"
       ],
       "name": "支付宝-生活缴费",
-      "description": "Alipay Cai Niao",
+      "description": "Alipay Life Bill",
       "type": "scheme",
       "uri": "alipayqr://platformapi/startapp?appId=20000193",
       "keywords": [
@@ -91,6 +98,7 @@
       ]
     },
     {
+      "id": "wechat-scan",
       "required": [
         "com.tencent.mm"
       ],
@@ -111,6 +119,7 @@
       ]
     },
     {
+      "id": "meituan-scan",
       "required": [
         "com.sankuai.meituan"
       ],
@@ -123,6 +132,7 @@
       ]
     },
     {
+      "id": "meituan-search",
       "required": [
         "com.sankuai.meituan"
       ],
@@ -132,6 +142,7 @@
       "uri": "imeituan://www.meituan.com/search"
     },
     {
+      "id": "meituan-order",
       "required": [
         "com.sankuai.meituan"
       ],
@@ -141,6 +152,7 @@
       "uri": "imeituan://www.meituan.com/ordercenterlist"
     },
     {
+      "id": "meituan-collection",
       "required": [
         "com.sankuai.meituan"
       ],
@@ -150,6 +162,7 @@
       "uri": "imeituan://www.meituan.com/collection/list"
     },
     {
+      "id": "meituan-waimai",
       "required": [
         "com.sankuai.meituan"
       ],
@@ -159,6 +172,7 @@
       "uri": "imeituan://www.meituan.com/search?q=外卖"
     },
     {
+      "id": "taobao-scan",
       "required": [
         "com.taobao.taobao"
       ],
@@ -168,6 +182,7 @@
       "uri": "taobao://tb.cn/n/scancode"
     },
     {
+      "id": "taobao-search",
       "required": [
         "com.taobao.taobao"
       ],
@@ -177,6 +192,7 @@
       "uri": "taobao://main.m.taobao.com/search/index.html"
     },
     {
+      "id": "pdd-search",
       "required": [
         "com.xunmeng.pinduoduo"
       ],
@@ -186,6 +202,7 @@
       "uri": "pinduoduo://com.xunmeng.pinduoduo/search_result.html"
     },
     {
+      "id": "douyin-search",
       "required": [
         "com.ss.android.ugc.aweme"
       ],
@@ -195,6 +212,7 @@
       "uri": "snssdk1128://search/tabs"
     },
     {
+      "id": "xhs-search",
       "required": [
         "com.xingin.xhs"
       ],
@@ -204,6 +222,7 @@
       "uri": "xhsdiscover://search/recommend"
     },
     {
+      "id": "amap-my-location",
       "required": [
         "com.autonavi.minimap"
       ],

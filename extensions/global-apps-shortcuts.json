@@ -4,6 +4,7 @@
   "description": "Global Popular apps shortcuts",
   "main": [
     {
+      "id": "youtube-search",
       "required": [
         "com.google.android.youtube",
         "app.revanced.android.youtube"
@@ -19,6 +20,7 @@
       ]
     },
     {
+      "id": "instagram-search",
       "required": [
         "com.instagram.android"
       ],
@@ -33,10 +35,11 @@
       ]
     },
     {
+      "id": "chatgpt-voice-assistant",
       "required": [
         "com.openai.chatgpt"
       ],
-      "name": "ChatGPT Voice Assistant",
+      "name": "Voice Assistant",
       "description": "ChatGPT Voice Assistant",
       "type": "intent",
       "data": {
@@ -51,20 +54,7 @@
       ]
     },
     {
-      "required": [
-        "com.google.android.apps.photos"
-      ],
-      "name": "Photos Favorites",
-      "description": "Google Photos Favorites",
-      "type": "scheme",
-      "uri": "https://photos.google.com/search/favorites",
-      "keywords": [
-        "photos",
-        "gallery",
-        "favorites"
-      ]
-    },
-    {
+      "id": "google-photos-search",
       "required": [
         "com.google.android.apps.photos"
       ],
@@ -79,27 +69,14 @@
       ]
     },
     {
-      "required": [
-        "com.google.android.apps.photos"
-      ],
-      "name": "Photos Favorites",
-      "description": "Google Photos Favorites",
-      "type": "scheme",
-      "uri": "https://photos.google.com/search/favorites",
-      "keywords": [
-        "google photos",
-        "gallery",
-        "favorites"
-      ]
-    },
-    {
+      "id": "google-photos-library",
       "required": [
         "com.google.android.apps.photos"
       ],
       "name": "Photos Library",
       "description": "Google Photos Library",
       "type": "scheme",
-      "uri": "https://photos.google.com/search/library",
+      "uri": "https://photos.google.com/search/Library",
       "keywords": [
         "google photos",
         "gallery",
@@ -107,13 +84,14 @@
       ]
     },
     {
+      "id": "google-photos-favorites",
       "required": [
         "com.google.android.apps.photos"
       ],
       "name": "Photos Favorites",
       "description": "Google Photos Favorites",
       "type": "scheme",
-      "uri": "https://photos.google.com/search/favorites",
+      "uri": "https://photos.google.com/search/Favorites",
       "keywords": [
         "google photos",
         "gallery",
@@ -121,13 +99,14 @@
       ]
     },
     {
+      "id": "google-photos-trash",
       "required": [
         "com.google.android.apps.photos"
       ],
       "name": "Photos Trash",
       "description": "Google Photos Trash",
       "type": "scheme",
-      "uri": "https://photos.google.com/search/trash",
+      "uri": "https://photos.google.com/search/Trash",
       "keywords": [
         "google photos",
         "gallery",
@@ -135,13 +114,14 @@
       ]
     },
     {
+      "id": "google-photos-archive",
       "required": [
         "com.google.android.apps.photos"
       ],
       "name": "Photos Archive",
       "description": "Google Photos Archive",
       "type": "scheme",
-      "uri": "https://photos.google.com/search/archive",
+      "uri": "https://photos.google.com/search/Archive",
       "keywords": [
         "google photos",
         "gallery",

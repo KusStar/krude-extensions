@@ -4,6 +4,7 @@
   "description": "System Settings shortcuts",
   "main": [
     {
+      "id": "settings-shortcuts",
       "name": "设置-WiFi",
       "description": "Wifi Setting",
       "type": "action",
@@ -13,6 +14,7 @@
       ]
     },
     {
+      "id": "settings-bluetooth",
       "name": "设置-蓝牙",
       "description": "Bluetooth Setting",
       "type": "action",
@@ -22,6 +24,7 @@
       ]
     },
     {
+      "id": "settings-application",
       "name": "设置-应用",
       "description": "App Setting",
       "type": "action",
@@ -31,6 +34,7 @@
       ]
     },
     {
+      "id": "settings-application-development",
       "name": "设置-开发者选项",
       "description": "Developer Options",
       "type": "action",
@@ -40,6 +44,7 @@
       ]
     },
     {
+      "id": "settings-date",
       "name": "设置-日期时间",
       "description": "Date Time Setting",
       "type": "action",
@@ -49,6 +54,7 @@
       ]
     },
     {
+      "id": "settings-locale",
       "name": "设置-语言",
       "description": "Language Setting",
       "type": "action",
@@ -58,6 +64,7 @@
       ]
     },
     {
+      "id": "settings-location",
       "name": "设置-位置",
       "description": "Location Setting",
       "type": "action",
@@ -67,6 +74,7 @@
       ]
     },
     {
+      "id": "settings-storage",
       "name": "设置-存储",
       "description": "Storage Setting",
       "type": "action",
@@ -76,6 +84,7 @@
       ]
     },
     {
+      "id": "settings-notification",
       "name": "设置-通知",
       "description": "Notification Setting",
       "type": "action",
@@ -85,6 +94,7 @@
       ]
     },
     {
+      "id": "settings-security",
       "name": "设置-安全",
       "description": "Security Setting",
       "type": "action",
@@ -94,6 +104,7 @@
       ]
     },
     {
+      "id": "settings-sound",
       "name": "设置-声音",
       "description": "Sound Setting",
       "type": "action",
@@ -103,6 +114,7 @@
       ]
     },
     {
+      "id": "settings-display",
       "name": "设置-显示",
       "description": "Display Setting",
       "type": "action",
@@ -112,6 +124,7 @@
       ]
     },
     {
+      "id": "settings-accessibility",
       "name": "设置-无障碍",
       "description": "Accessibility Setting",
       "type": "action",
@@ -121,19 +134,11 @@
       ]
     },
     {
+      "id": "settings-permission",
       "name": "设置-应用权限",
       "description": "App Permission Setting",
       "type": "action",
       "uri": "android.settings.MANAGE_ALL_APPLICATIONS_SETTINGS",
-      "required": [
-        "com.android.settings"
-      ]
-    },
-    {
-      "name": "设置-语言",
-      "description": "Locale Setting",
-      "type": "action",
-      "uri": "android.settings.LOCALE_SETTINGS",
       "required": [
         "com.android.settings"
       ]
