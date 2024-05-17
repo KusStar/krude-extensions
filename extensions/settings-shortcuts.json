@@ -128,6 +128,15 @@
       "required": [
         "com.android.settings"
       ]
+    },
+    {
+      "name": "设置-语言",
+      "description": "Locale Setting",
+      "type": "action",
+      "uri": "android.settings.LOCALE_SETTINGS",
+      "required": [
+        "com.android.settings"
+      ]
     }
   ]
 }

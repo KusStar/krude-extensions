@@ -49,6 +49,104 @@
         "assistant",
         "voice"
       ]
+    },
+    {
+      "required": [
+        "com.google.android.apps.photos"
+      ],
+      "name": "Photos Favorites",
+      "description": "Google Photos Favorites",
+      "type": "scheme",
+      "uri": "https://photos.google.com/search/favorites",
+      "keywords": [
+        "photos",
+        "gallery",
+        "favorites"
+      ]
+    },
+    {
+      "required": [
+        "com.google.android.apps.photos"
+      ],
+      "name": "Photos Search",
+      "description": "Google Photos Search",
+      "type": "scheme",
+      "uri": "https://photos.google.com/search",
+      "keywords": [
+        "google photos",
+        "gallery",
+        "search"
+      ]
+    },
+    {
+      "required": [
+        "com.google.android.apps.photos"
+      ],
+      "name": "Photos Favorites",
+      "description": "Google Photos Favorites",
+      "type": "scheme",
+      "uri": "https://photos.google.com/search/favorites",
+      "keywords": [
+        "google photos",
+        "gallery",
+        "favorites"
+      ]
+    },
+    {
+      "required": [
+        "com.google.android.apps.photos"
+      ],
+      "name": "Photos Library",
+      "description": "Google Photos Library",
+      "type": "scheme",
+      "uri": "https://photos.google.com/search/library",
+      "keywords": [
+        "google photos",
+        "gallery",
+        "library"
+      ]
+    },
+    {
+      "required": [
+        "com.google.android.apps.photos"
+      ],
+      "name": "Photos Favorites",
+      "description": "Google Photos Favorites",
+      "type": "scheme",
+      "uri": "https://photos.google.com/search/favorites",
+      "keywords": [
+        "google photos",
+        "gallery",
+        "favorites"
+      ]
+    },
+    {
+      "required": [
+        "com.google.android.apps.photos"
+      ],
+      "name": "Photos Trash",
+      "description": "Google Photos Trash",
+      "type": "scheme",
+      "uri": "https://photos.google.com/search/trash",
+      "keywords": [
+        "google photos",
+        "gallery",
+        "trash"
+      ]
+    },
+    {
+      "required": [
+        "com.google.android.apps.photos"
+      ],
+      "name": "Photos Archive",
+      "description": "Google Photos Archive",
+      "type": "scheme",
+      "uri": "https://photos.google.com/search/archive",
+      "keywords": [
+        "google photos",
+        "gallery",
+        "archive"
+      ]
     }
   ]
 }
