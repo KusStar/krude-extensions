@@ -192,6 +192,36 @@
       "uri": "taobao://main.m.taobao.com/search/index.html"
     },
     {
+      "id": "taobao-orders",
+      "required": [
+        "com.taobao.taobao"
+      ],
+      "name": "淘宝-订单",
+      "description": "Taobao Orders",
+      "type": "scheme",
+      "uri": "taobao://main.m.taobao.com/olist/index.html"
+    },
+    {
+      "id": "taobao-orders-wait-send",
+      "required": [
+        "com.taobao.taobao"
+      ],
+      "name": "淘宝-待发货",
+      "description": "Taobao Orders WaitSend",
+      "type": "scheme",
+      "uri": "taobao://main.m.taobao.com/olist/index.html?tabCode=waitSend"
+    },
+    {
+      "id": "taobao-orders-wait-confirm",
+      "required": [
+        "com.taobao.taobao"
+      ],
+      "name": "淘宝-待收货",
+      "description": "Taobao Orders WaitConfirm",
+      "type": "scheme",
+      "uri": "taobao://main.m.taobao.com/olist/index.html?tabCode=waitConfirm"
+    },
+    {
       "id": "pdd-search",
       "required": [
         "com.xunmeng.pinduoduo"
@@ -200,6 +230,46 @@
       "description": "Pinduoduo QR Search",
       "type": "scheme",
       "uri": "pinduoduo://com.xunmeng.pinduoduo/search_result.html"
+    },
+    {
+      "id": "pdd-orders",
+      "required": [
+        "com.xunmeng.pinduoduo"
+      ],
+      "name": "拼多多-订单",
+      "description": "Pinduoduo Orders",
+      "type": "scheme",
+      "uri": "pinduoduo://com.xunmeng.pinduoduo/orders.html"
+    },
+    {
+      "id": "pdd-orders-shipping",
+      "required": [
+        "com.xunmeng.pinduoduo"
+      ],
+      "name": "拼多多-待收货",
+      "description": "Pinduoduo Shipping Orders",
+      "type": "scheme",
+      "uri": "pinduoduo://com.xunmeng.pinduoduo/orders.html?type=3"
+    },
+    {
+      "id": "pdd-orders-delivery",
+      "required": [
+        "com.xunmeng.pinduoduo"
+      ],
+      "name": "拼多多-待发货",
+      "description": "Pinduoduo waiting for delivery",
+      "type": "scheme",
+      "uri": "pinduoduo://com.xunmeng.pinduoduo/orders.html?type=2"
+    },
+    {
+      "id": "pdd-dddresses",
+      "required": [
+        "com.xunmeng.pinduoduo"
+      ],
+      "name": "拼多多-收货地址",
+      "description": "Pinduoduo Addresses",
+      "type": "scheme",
+      "uri": "pinduoduo://com.xunmeng.pinduoduo/addresses.html"
     },
     {
       "id": "douyin-search",
