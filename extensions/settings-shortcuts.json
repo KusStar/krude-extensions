@@ -134,9 +134,9 @@
       ]
     },
     {
-      "id": "settings-permission",
-      "name": "设置-应用权限",
-      "description": "App Permission Setting",
+      "id": "settings-app-settings",
+      "name": "设置-应用设置",
+      "description": "Application Setting",
       "type": "action",
       "uri": "android.settings.MANAGE_ALL_APPLICATIONS_SETTINGS",
       "required": [

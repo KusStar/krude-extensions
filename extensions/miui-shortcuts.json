@@ -1,0 +1,33 @@
+{
+  "name": "miui-shortcuts",
+  "version": "1.0.0",
+  "description": "MIUI System shortcuts",
+  "main": [
+    {
+      "id": "miui-thirdappassistant",
+      "name": "MIUI-三方应用异常分析",
+      "description": "com.miui.thirdappassistant",
+      "type": "intent",
+      "data": {
+        "package": "com.miui.thirdappassistant",
+        "class": "com.miui.thirdappassistant.ui.exceptionresult.ExceptionResultActivity"
+      },
+      "required": [
+        "com.miui.thirdappassistant"
+      ]
+    },
+    {
+      "id": "miui-navigationbar-type",
+      "name": "MIUI-系统导航方式",
+      "description": "com.miui.home/com.miui.home.recents.settings.NavigationBarTypeActivity",
+      "type": "intent",
+      "data": {
+        "package": "com.miui.home",
+        "class": "com.miui.home.recents.settings.NavigationBarTypeActivity"
+      },
+      "required": [
+        "com.miui.home"
+      ]
+    }
+  ]
+}
