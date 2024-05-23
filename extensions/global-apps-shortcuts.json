@@ -58,7 +58,7 @@
       "required": [
         "com.google.android.apps.photos"
       ],
-      "name": "Photos Search",
+      "name": "Search",
       "description": "Google Photos Search",
       "type": "scheme",
       "uri": "https://photos.google.com/search",
@@ -66,14 +66,25 @@
         "google photos",
         "gallery",
         "search"
-      ]
+      ],
+      "i18n": {
+        "zh": {
+          "name": "搜索",
+          "description": "谷歌相册搜索",
+          "keywords": [
+            "谷歌相册",
+            "相册",
+            "搜索"
+          ]
+        }
+      }
     },
     {
       "id": "google-photos-library",
       "required": [
         "com.google.android.apps.photos"
       ],
-      "name": "Photos Library",
+      "name": "Library",
       "description": "Google Photos Library",
       "type": "scheme",
       "uri": "https://photos.google.com/search/Library",
@@ -81,14 +92,26 @@
         "google photos",
         "gallery",
         "library"
-      ]
+      ],
+      "i18n": {
+        "zh": {
+          "name": "媒体库",
+          "description": "谷歌相册媒体库",
+          "uri": "https://photos.google.com/search/媒体库",
+          "keywords": [
+            "谷歌相册",
+            "相册",
+            "媒体库"
+          ]
+        }
+      }
     },
     {
       "id": "google-photos-favorites",
       "required": [
         "com.google.android.apps.photos"
       ],
-      "name": "Photos Favorites",
+      "name": "Favorites",
       "description": "Google Photos Favorites",
       "type": "scheme",
       "uri": "https://photos.google.com/search/Favorites",
@@ -96,14 +119,26 @@
         "google photos",
         "gallery",
         "favorites"
-      ]
+      ],
+      "i18n": {
+        "zh": {
+          "name": "收藏",
+          "description": "谷歌相册收藏",
+          "uri": "https://photos.google.com/search/收藏",
+          "keywords": [
+            "谷歌相册",
+            "相册",
+            "收藏"
+          ]
+        }
+      }
     },
     {
       "id": "google-photos-trash",
       "required": [
         "com.google.android.apps.photos"
       ],
-      "name": "Photos Trash",
+      "name": "Trash",
       "description": "Google Photos Trash",
       "type": "scheme",
       "uri": "https://photos.google.com/search/Trash",
@@ -111,14 +146,26 @@
         "google photos",
         "gallery",
         "trash"
-      ]
+      ],
+      "i18n": {
+        "zh": {
+          "name": "回收站",
+          "description": "谷歌相册回收站",
+          "uri": "https://photos.google.com/search/回收站",
+          "keywords": [
+            "谷歌相册",
+            "相册",
+            "回收站"
+          ]
+        }
+      }
     },
     {
       "id": "google-photos-archive",
       "required": [
         "com.google.android.apps.photos"
       ],
-      "name": "Photos Archive",
+      "name": "Archive",
       "description": "Google Photos Archive",
       "type": "scheme",
       "uri": "https://photos.google.com/search/Archive",
@@ -126,7 +173,19 @@
         "google photos",
         "gallery",
         "archive"
-      ]
+      ],
+      "i18n": {
+        "zh": {
+          "name": "归档",
+          "description": "谷歌相册归档",
+          "uri": "https://photos.google.com/search/归档",
+          "keywords": [
+            "谷歌相册",
+            "相册",
+            "归档"
+          ]
+        }
+      }
     }
   ]
 }
