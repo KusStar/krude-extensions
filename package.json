@@ -3,7 +3,8 @@
   "module": "server.ts",
   "type": "module",
   "scripts": {
-    "dev": "bun server.ts --watch"
+    "dev": "bun server.ts --watch",
+    "gen:list": "bun run gen-list.ts"
   },
   "devDependencies": {
     "@types/bun": "latest"

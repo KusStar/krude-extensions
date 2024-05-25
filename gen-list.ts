@@ -12,7 +12,7 @@ const getExtLineNumber = async (file: string, extension: {
   let lineNumber = 0
   for (const line of lines) {
     if (line.includes(extension.name)) {
-      return lineNumber
+      return lineNumber + 1
     }
     lineNumber++
   }
