@@ -199,7 +199,7 @@
       "name": "淘宝-订单",
       "description": "Taobao Orders",
       "type": "scheme",
-      "uri": "taobao://main.m.taobao.com/olist/index.html"
+      "uri": "taobao://h5.m.taobao.com/awp/base/order/listultron.htm"
     },
     {
       "id": "taobao-orders-wait-send",
@@ -209,7 +209,7 @@
       "name": "淘宝-待发货",
       "description": "Taobao Orders WaitSend",
       "type": "scheme",
-      "uri": "taobao://main.m.taobao.com/olist/index.html?tabCode=waitSend"
+      "uri": "taobao://h5.m.taobao.com/awp/base/order/listultron.htm?OrderListType=wait_to_shipments"
     },
     {
       "id": "taobao-orders-wait-confirm",
@@ -219,7 +219,27 @@
       "name": "淘宝-待收货",
       "description": "Taobao Orders WaitConfirm",
       "type": "scheme",
-      "uri": "taobao://main.m.taobao.com/olist/index.html?tabCode=waitConfirm"
+      "uri": "taobao://h5.m.taobao.com/awp/base/order/listultron.htm?OrderListType=wait_to_confirm"
+    },
+    {
+      "id": "taobao-orders-refund",
+      "required": [
+        "com.taobao.taobao"
+      ],
+      "name": "淘宝-退款/售后",
+      "description": "Taobao Orders Refund",
+      "type": "scheme",
+      "uri": "taobao://h5.m.taobao.com/awp/base/order/listultron.htm?OrderListType=refund"
+    },
+    {
+      "id": "taobao-receiver-address",
+      "required": [
+        "com.taobao.taobao"
+      ],
+      "name": "淘宝-收货地址",
+      "description": "Taobao Receiver Address",
+      "type": "scheme",
+      "uri": "taobao://market.m.taobao.com/app/vip/receiver-address/pages/list?wh_weex=true&wx_navbar_hidden=true&isUnfrequent=true&voiceMode=true&pageType=1&largescreenstyle=split"
     },
     {
       "id": "pdd-search",
