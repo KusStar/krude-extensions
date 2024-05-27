@@ -119,6 +119,24 @@
       ]
     },
     {
+      "id": "wechat-pay-collet",
+      "required": [
+        "com.tencent.mm"
+      ],
+      "name": "微信-收付款",
+      "description": "Wechat Pay Collect",
+      "type": "action",
+      "uri": "com.tencent.mm.action.BIZSHORTCUT",
+      "data": {
+        "extra": {
+          "LauncherUI.Shortcut.LaunchType": "launch_type_offline_wallet"
+        }
+      },
+      "keywords": [
+        "付款码"
+      ]
+    },
+    {
       "id": "meituan-scan",
       "required": [
         "com.sankuai.meituan"
