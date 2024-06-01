@@ -27,7 +27,9 @@ for (const name of glob.scanSync("./extensions")) {
     md += `### [${extension.name}](./extensions/${name})\n\n`
     for (const ext of extension.main) {
       const lineNumber = await getExtLineNumber(file, ext)
-      md += `- [${ext.name}](./extensions/${name}#L${lineNumber})\n  ${ext.description}\n\n`
+      const desc = ext.description ? `\n  ${ext.description}\n` : ""
+      const keywords = ext.keywords ? `\n  [${ext.keywords.join(", ")}]\n` : ""
+      md += `- [${ext.name}](./extensions/${name}#L${lineNumber})\n\n  **${ext.type}**\n  ${desc}${keywords}\n`
     }
   }
 }
