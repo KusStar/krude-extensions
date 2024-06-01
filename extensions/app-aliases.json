@@ -1,0 +1,32 @@
+{
+  "name": "app-aliases",
+  "version": "1.0.0",
+  "description": "Popular apps aliases",
+  "main": [
+    {
+      "id": "youtube-alias",
+      "required": [
+        "com.google.android.youtube",
+        "app.revanced.android.youtube"
+      ],
+      "name": "Youtube Alias",
+      "type": "alias",
+      "keywords": [
+        "ytb",
+        "油管"
+      ]
+    },
+    {
+      "id": "instagram-alias",
+      "required": [
+        "com.instagram.android"
+      ],
+      "name": "Instagram Alias",
+      "type": "alias",
+      "keywords": [
+        "ig",
+        "ins"
+      ]
+    }
+  ]
+}
