@@ -30,64 +30,67 @@ Extensions for [krude](https://github.com/KusStar/krude/blob/main/docs/EXTENSION
 - [微信-扫一扫](./extensions/china-apps-shortcuts.json#L105)
   Wechat QR Scan
 
-- [美团-扫一扫](./extensions/china-apps-shortcuts.json#L126)
+- [微信-收付款](./extensions/china-apps-shortcuts.json#L126)
+  Wechat Pay Collect
+
+- [美团-扫一扫](./extensions/china-apps-shortcuts.json#L144)
   Meituan QR Scan
 
-- [美团-搜索](./extensions/china-apps-shortcuts.json#L139)
+- [美团-搜索](./extensions/china-apps-shortcuts.json#L157)
   Meituan Search
 
-- [美团-订单](./extensions/china-apps-shortcuts.json#L149)
+- [美团-订单](./extensions/china-apps-shortcuts.json#L167)
   Meituan Order Center List
 
-- [美团-收藏](./extensions/china-apps-shortcuts.json#L159)
+- [美团-收藏](./extensions/china-apps-shortcuts.json#L177)
   Meituan Collection
 
-- [美团-外卖](./extensions/china-apps-shortcuts.json#L169)
+- [美团-外卖](./extensions/china-apps-shortcuts.json#L187)
   Meituan Waimai
 
-- [淘宝-扫一扫](./extensions/china-apps-shortcuts.json#L179)
+- [淘宝-扫一扫](./extensions/china-apps-shortcuts.json#L197)
   Taobao QR Scan
 
-- [淘宝-搜索](./extensions/china-apps-shortcuts.json#L189)
+- [淘宝-搜索](./extensions/china-apps-shortcuts.json#L207)
   Taobao Search
 
-- [淘宝-订单](./extensions/china-apps-shortcuts.json#L199)
+- [淘宝-订单](./extensions/china-apps-shortcuts.json#L217)
   Taobao Orders
 
-- [淘宝-待发货](./extensions/china-apps-shortcuts.json#L209)
+- [淘宝-待发货](./extensions/china-apps-shortcuts.json#L227)
   Taobao Orders WaitSend
 
-- [淘宝-待收货](./extensions/china-apps-shortcuts.json#L219)
+- [淘宝-待收货](./extensions/china-apps-shortcuts.json#L237)
   Taobao Orders WaitConfirm
 
-- [淘宝-退款/售后](./extensions/china-apps-shortcuts.json#L229)
+- [淘宝-退款/售后](./extensions/china-apps-shortcuts.json#L247)
   Taobao Orders Refund
 
-- [淘宝-收货地址](./extensions/china-apps-shortcuts.json#L239)
+- [淘宝-收货地址](./extensions/china-apps-shortcuts.json#L257)
   Taobao Receiver Address
 
-- [拼多多-搜索](./extensions/china-apps-shortcuts.json#L249)
+- [拼多多-搜索](./extensions/china-apps-shortcuts.json#L267)
   Pinduoduo QR Search
 
-- [拼多多-订单](./extensions/china-apps-shortcuts.json#L259)
+- [拼多多-订单](./extensions/china-apps-shortcuts.json#L277)
   Pinduoduo Orders
 
-- [拼多多-待收货](./extensions/china-apps-shortcuts.json#L269)
+- [拼多多-待收货](./extensions/china-apps-shortcuts.json#L287)
   Pinduoduo Shipping Orders
 
-- [拼多多-待发货](./extensions/china-apps-shortcuts.json#L279)
+- [拼多多-待发货](./extensions/china-apps-shortcuts.json#L297)
   Pinduoduo waiting for delivery
 
-- [拼多多-收货地址](./extensions/china-apps-shortcuts.json#L289)
+- [拼多多-收货地址](./extensions/china-apps-shortcuts.json#L307)
   Pinduoduo Addresses
 
-- [抖音-搜索](./extensions/china-apps-shortcuts.json#L299)
+- [抖音-搜索](./extensions/china-apps-shortcuts.json#L317)
   Douyin Search
 
-- [小红书-搜索](./extensions/china-apps-shortcuts.json#L309)
+- [小红书-搜索](./extensions/china-apps-shortcuts.json#L327)
   Xiaohongshu Search
 
-- [高德-我的位置](./extensions/china-apps-shortcuts.json#L319)
+- [高德-我的位置](./extensions/china-apps-shortcuts.json#L337)
   Gaode Amap My Location
 
 ### [global-apps-shortcuts](./extensions/global-apps-shortcuts.json)
