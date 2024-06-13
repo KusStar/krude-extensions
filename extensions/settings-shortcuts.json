@@ -5,143 +5,213 @@
   "main": [
     {
       "id": "settings-shortcuts",
-      "name": "设置-WiFi",
+      "name": "Settings-WiFi",
       "description": "Wifi Setting",
       "type": "action",
       "uri": "android.settings.WIFI_SETTINGS",
       "required": [
         "com.android.settings"
-      ]
+      ],
+      "i18n": {
+        "zh": {
+          "name": "设置-WiFi"
+        }
+      }
     },
     {
       "id": "settings-bluetooth",
-      "name": "设置-蓝牙",
+      "name": "Settings-Bluetooth",
       "description": "Bluetooth Setting",
       "type": "action",
       "uri": "android.settings.BLUETOOTH_SETTINGS",
       "required": [
         "com.android.settings"
-      ]
+      ],
+      "i18n": {
+        "zh": {
+          "name": "设置-蓝牙"
+        }
+      }
     },
     {
       "id": "settings-application",
-      "name": "设置-应用",
+      "name": "Settings-All apps",
       "description": "App Setting",
       "type": "action",
       "uri": "android.settings.APPLICATION_SETTINGS",
       "required": [
         "com.android.settings"
-      ]
+      ],
+      "i18n": {
+        "zh": {
+          "name": "设置-应用"
+        }
+      }
     },
     {
       "id": "settings-application-development",
-      "name": "设置-开发者选项",
+      "name": "Settings-Developer Options",
       "description": "Developer Options",
       "type": "action",
       "uri": "android.settings.APPLICATION_DEVELOPMENT_SETTINGS",
       "required": [
         "com.android.settings"
-      ]
+      ],
+      "i18n": {
+        "zh": {
+          "name": "设置-开发者选项"
+        }
+      }
     },
     {
       "id": "settings-date",
-      "name": "设置-日期时间",
+      "name": "Settings-Date & Time",
       "description": "Date Time Setting",
       "type": "action",
       "uri": "android.settings.DATE_SETTINGS",
       "required": [
         "com.android.settings"
-      ]
+      ],
+      "i18n": {
+        "zh": {
+          "name": "设置-日期和时间"
+        }
+      }
     },
     {
       "id": "settings-locale",
-      "name": "设置-语言",
+      "name": "Settings-Language",
       "description": "Language Setting",
       "type": "action",
       "uri": "android.settings.LOCALE_SETTINGS",
       "required": [
         "com.android.settings"
-      ]
+      ],
+      "i18n": {
+        "zh": {
+          "name": "设置-语言"
+        }
+      }
     },
     {
       "id": "settings-location",
-      "name": "设置-位置",
+      "name": "Settings-Location",
       "description": "Location Setting",
       "type": "action",
       "uri": "android.settings.LOCATION_SOURCE_SETTINGS",
       "required": [
         "com.android.settings"
-      ]
+      ],
+      "i18n": {
+        "zh": {
+          "name": "设置-位置"
+        }
+      }
     },
     {
       "id": "settings-storage",
-      "name": "设置-存储",
+      "name": "Settings-Storage",
       "description": "Storage Setting",
       "type": "action",
       "uri": "android.settings.INTERNAL_STORAGE_SETTINGS",
       "required": [
         "com.android.settings"
-      ]
+      ],
+      "i18n": {
+        "zh": {
+          "name": "设置-存储"
+        }
+      }
     },
     {
       "id": "settings-notification",
-      "name": "设置-通知",
+      "name": "Settings-Notification",
       "description": "Notification Setting",
       "type": "action",
       "uri": "android.settings.ACTION_NOTIFICATION_LISTENER_SETTINGS",
       "required": [
         "com.android.settings"
-      ]
+      ],
+      "i18n": {
+        "zh": {
+          "name": "设置-通知"
+        }
+      }
     },
     {
       "id": "settings-security",
-      "name": "设置-安全",
+      "name": "Settings-Security",
       "description": "Security Setting",
       "type": "action",
       "uri": "android.settings.SECURITY_SETTINGS",
       "required": [
         "com.android.settings"
-      ]
+      ],
+      "i18n": {
+        "zh": {
+          "name": "设置-安全"
+        }
+      }
     },
     {
       "id": "settings-sound",
-      "name": "设置-声音",
+      "name": "Settings-Sound",
       "description": "Sound Setting",
       "type": "action",
       "uri": "android.settings.SOUND_SETTINGS",
       "required": [
         "com.android.settings"
-      ]
+      ],
+      "i18n": {
+        "zh": {
+          "name": "设置-声音"
+        }
+      }
     },
     {
       "id": "settings-display",
-      "name": "设置-显示",
+      "name": "Settings-Display",
       "description": "Display Setting",
       "type": "action",
       "uri": "android.settings.DISPLAY_SETTINGS",
       "required": [
         "com.android.settings"
-      ]
+      ],
+      "i18n": {
+        "zh": {
+          "name": "设置-显示"
+        }
+      }
     },
     {
       "id": "settings-accessibility",
-      "name": "设置-无障碍",
+      "name": "Settings-Accessibility",
       "description": "Accessibility Setting",
       "type": "action",
       "uri": "android.settings.ACCESSIBILITY_SETTINGS",
       "required": [
         "com.android.settings"
-      ]
+      ],
+      "i18n": {
+        "zh": {
+          "name": "设置-无障碍"
+        }
+      }
     },
     {
       "id": "settings-app-settings",
-      "name": "设置-应用设置",
+      "name": "Settings-App settings",
       "description": "Application Setting",
       "type": "action",
       "uri": "android.settings.MANAGE_ALL_APPLICATIONS_SETTINGS",
       "required": [
         "com.android.settings"
-      ]
+      ],
+      "i18n": {
+        "zh": {
+          "name": "设置-应用设置"
+        }
+      }
     }
   ]
 }
