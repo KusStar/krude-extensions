@@ -29,7 +29,7 @@ for (const name of glob.scanSync("./extensions")) {
     extensionCount += extension.main.length
     md += `### [${extension.name}](./extensions/${name})\n\n`
     for (const ext of extension.main) {
-      const i18nNames = ext.i18n ? "|" + Object.values(ext.i18n).map((it: any) => it.name).join('|') : ""
+      const i18nNames = ext.i18n ? " | " + Object.values(ext.i18n).map((it: any) => it.name).join(' | ') : ""
       const lineNumber = await getExtLineNumber(file, ext)
       const desc = ext.description ? `\n  ${ext.description}\n` : ""
       const keywords = ext.keywords ? `\n  [${ext.keywords.join(", ")}]\n` : ""

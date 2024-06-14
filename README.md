@@ -226,7 +226,7 @@ Extension Count: 55
 
   [ai, chatgpt, assistant, voice]
 
-- [Search|搜索](./extensions/global-apps-shortcuts.json#L12)
+- [Search | 搜索](./extensions/global-apps-shortcuts.json#L12)
 
   **scheme**
   
@@ -234,7 +234,7 @@ Extension Count: 55
 
   [google photos, gallery, search]
 
-- [Library|媒体库](./extensions/global-apps-shortcuts.json#L87)
+- [Library | 媒体库](./extensions/global-apps-shortcuts.json#L87)
 
   **scheme**
   
@@ -242,7 +242,7 @@ Extension Count: 55
 
   [google photos, gallery, library]
 
-- [Favorites|收藏](./extensions/global-apps-shortcuts.json#L114)
+- [Favorites | 收藏](./extensions/global-apps-shortcuts.json#L114)
 
   **scheme**
   
@@ -250,7 +250,7 @@ Extension Count: 55
 
   [google photos, gallery, favorites]
 
-- [Trash|回收站](./extensions/global-apps-shortcuts.json#L141)
+- [Trash | 回收站](./extensions/global-apps-shortcuts.json#L141)
 
   **scheme**
   
@@ -258,7 +258,7 @@ Extension Count: 55
 
   [google photos, gallery, trash]
 
-- [Archive|归档](./extensions/global-apps-shortcuts.json#L168)
+- [Archive | 归档](./extensions/global-apps-shortcuts.json#L168)
 
   **scheme**
   
@@ -296,85 +296,85 @@ Extension Count: 55
 
 ### [setting-shortcuts](./extensions/settings-shortcuts.json)
 
-- [Settings-WiFi|设置-WiFi](./extensions/settings-shortcuts.json#L8)
+- [Settings-WiFi | 设置-WiFi](./extensions/settings-shortcuts.json#L8)
 
   **action**
   
   Wifi Setting
 
-- [Settings-Bluetooth|设置-蓝牙](./extensions/settings-shortcuts.json#L23)
+- [Settings-Bluetooth | 设置-蓝牙](./extensions/settings-shortcuts.json#L23)
 
   **action**
   
   Bluetooth Setting
 
-- [Settings-All apps|设置-应用](./extensions/settings-shortcuts.json#L38)
+- [Settings-All apps | 设置-应用](./extensions/settings-shortcuts.json#L38)
 
   **action**
   
   App Setting
 
-- [Settings-Developer Options|设置-开发者选项](./extensions/settings-shortcuts.json#L53)
+- [Settings-Developer Options | 设置-开发者选项](./extensions/settings-shortcuts.json#L53)
 
   **action**
   
   Developer Options
 
-- [Settings-Date & Time|设置-日期和时间](./extensions/settings-shortcuts.json#L68)
+- [Settings-Date & Time | 设置-日期和时间](./extensions/settings-shortcuts.json#L68)
 
   **action**
   
   Date Time Setting
 
-- [Settings-Language|设置-语言](./extensions/settings-shortcuts.json#L83)
+- [Settings-Language | 设置-语言](./extensions/settings-shortcuts.json#L83)
 
   **action**
   
   Language Setting
 
-- [Settings-Location|设置-位置](./extensions/settings-shortcuts.json#L98)
+- [Settings-Location | 设置-位置](./extensions/settings-shortcuts.json#L98)
 
   **action**
   
   Location Setting
 
-- [Settings-Storage|设置-存储](./extensions/settings-shortcuts.json#L113)
+- [Settings-Storage | 设置-存储](./extensions/settings-shortcuts.json#L113)
 
   **action**
   
   Storage Setting
 
-- [Settings-Notification|设置-通知](./extensions/settings-shortcuts.json#L128)
+- [Settings-Notification | 设置-通知](./extensions/settings-shortcuts.json#L128)
 
   **action**
   
   Notification Setting
 
-- [Settings-Security|设置-安全](./extensions/settings-shortcuts.json#L143)
+- [Settings-Security | 设置-安全](./extensions/settings-shortcuts.json#L143)
 
   **action**
   
   Security Setting
 
-- [Settings-Sound|设置-声音](./extensions/settings-shortcuts.json#L158)
+- [Settings-Sound | 设置-声音](./extensions/settings-shortcuts.json#L158)
 
   **action**
   
   Sound Setting
 
-- [Settings-Display|设置-显示](./extensions/settings-shortcuts.json#L173)
+- [Settings-Display | 设置-显示](./extensions/settings-shortcuts.json#L173)
 
   **action**
   
   Display Setting
 
-- [Settings-Accessibility|设置-无障碍](./extensions/settings-shortcuts.json#L188)
+- [Settings-Accessibility | 设置-无障碍](./extensions/settings-shortcuts.json#L188)
 
   **action**
   
   Accessibility Setting
 
-- [Settings-App settings|设置-应用设置](./extensions/settings-shortcuts.json#L203)
+- [Settings-App settings | 设置-应用设置](./extensions/settings-shortcuts.json#L203)
 
   **action**
   
