@@ -4,6 +4,8 @@ Extensions for [krude](https://github.com/KusStar/krude/blob/main/docs/EXTENSION
 
 ## List
 
+Extension Count: 55
+
 ### [china-apps-shortcuts](./extensions/china-apps-shortcuts.json)
 
 - [支付宝-扫一扫](./extensions/china-apps-shortcuts.json#L11)
@@ -224,7 +226,7 @@ Extensions for [krude](https://github.com/KusStar/krude/blob/main/docs/EXTENSION
 
   [ai, chatgpt, assistant, voice]
 
-- [Search](./extensions/global-apps-shortcuts.json#L12)
+- [Search|搜索](./extensions/global-apps-shortcuts.json#L12)
 
   **scheme**
   
@@ -232,7 +234,7 @@ Extensions for [krude](https://github.com/KusStar/krude/blob/main/docs/EXTENSION
 
   [google photos, gallery, search]
 
-- [Library](./extensions/global-apps-shortcuts.json#L87)
+- [Library|媒体库](./extensions/global-apps-shortcuts.json#L87)
 
   **scheme**
   
@@ -240,7 +242,7 @@ Extensions for [krude](https://github.com/KusStar/krude/blob/main/docs/EXTENSION
 
   [google photos, gallery, library]
 
-- [Favorites](./extensions/global-apps-shortcuts.json#L114)
+- [Favorites|收藏](./extensions/global-apps-shortcuts.json#L114)
 
   **scheme**
   
@@ -248,7 +250,7 @@ Extensions for [krude](https://github.com/KusStar/krude/blob/main/docs/EXTENSION
 
   [google photos, gallery, favorites]
 
-- [Trash](./extensions/global-apps-shortcuts.json#L141)
+- [Trash|回收站](./extensions/global-apps-shortcuts.json#L141)
 
   **scheme**
   
@@ -256,7 +258,7 @@ Extensions for [krude](https://github.com/KusStar/krude/blob/main/docs/EXTENSION
 
   [google photos, gallery, trash]
 
-- [Archive](./extensions/global-apps-shortcuts.json#L168)
+- [Archive|归档](./extensions/global-apps-shortcuts.json#L168)
 
   **scheme**
   
@@ -294,85 +296,85 @@ Extensions for [krude](https://github.com/KusStar/krude/blob/main/docs/EXTENSION
 
 ### [setting-shortcuts](./extensions/settings-shortcuts.json)
 
-- [设置-WiFi](./extensions/settings-shortcuts.json#L8)
+- [Settings-WiFi|设置-WiFi](./extensions/settings-shortcuts.json#L8)
 
   **action**
   
   Wifi Setting
 
-- [设置-蓝牙](./extensions/settings-shortcuts.json#L18)
+- [Settings-Bluetooth|设置-蓝牙](./extensions/settings-shortcuts.json#L23)
 
   **action**
   
   Bluetooth Setting
 
-- [设置-应用](./extensions/settings-shortcuts.json#L28)
+- [Settings-All apps|设置-应用](./extensions/settings-shortcuts.json#L38)
 
   **action**
   
   App Setting
 
-- [设置-开发者选项](./extensions/settings-shortcuts.json#L38)
+- [Settings-Developer Options|设置-开发者选项](./extensions/settings-shortcuts.json#L53)
 
   **action**
   
   Developer Options
 
-- [设置-日期时间](./extensions/settings-shortcuts.json#L48)
+- [Settings-Date & Time|设置-日期和时间](./extensions/settings-shortcuts.json#L68)
 
   **action**
   
   Date Time Setting
 
-- [设置-语言](./extensions/settings-shortcuts.json#L58)
+- [Settings-Language|设置-语言](./extensions/settings-shortcuts.json#L83)
 
   **action**
   
   Language Setting
 
-- [设置-位置](./extensions/settings-shortcuts.json#L68)
+- [Settings-Location|设置-位置](./extensions/settings-shortcuts.json#L98)
 
   **action**
   
   Location Setting
 
-- [设置-存储](./extensions/settings-shortcuts.json#L78)
+- [Settings-Storage|设置-存储](./extensions/settings-shortcuts.json#L113)
 
   **action**
   
   Storage Setting
 
-- [设置-通知](./extensions/settings-shortcuts.json#L88)
+- [Settings-Notification|设置-通知](./extensions/settings-shortcuts.json#L128)
 
   **action**
   
   Notification Setting
 
-- [设置-安全](./extensions/settings-shortcuts.json#L98)
+- [Settings-Security|设置-安全](./extensions/settings-shortcuts.json#L143)
 
   **action**
   
   Security Setting
 
-- [设置-声音](./extensions/settings-shortcuts.json#L108)
+- [Settings-Sound|设置-声音](./extensions/settings-shortcuts.json#L158)
 
   **action**
   
   Sound Setting
 
-- [设置-显示](./extensions/settings-shortcuts.json#L118)
+- [Settings-Display|设置-显示](./extensions/settings-shortcuts.json#L173)
 
   **action**
   
   Display Setting
 
-- [设置-无障碍](./extensions/settings-shortcuts.json#L128)
+- [Settings-Accessibility|设置-无障碍](./extensions/settings-shortcuts.json#L188)
 
   **action**
   
   Accessibility Setting
 
-- [设置-应用设置](./extensions/settings-shortcuts.json#L138)
+- [Settings-App settings|设置-应用设置](./extensions/settings-shortcuts.json#L203)
 
   **action**
   
