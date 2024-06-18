@@ -4,7 +4,7 @@ Extensions for [krude](https://github.com/KusStar/krude/blob/main/docs/EXTENSION
 
 ## List
 
-Extension Count: 55
+Extension Count: 56
 
 ### [china-apps-shortcuts](./extensions/china-apps-shortcuts.json)
 
@@ -293,6 +293,12 @@ Extension Count: 55
   **alias**
   
   [ig, ins]
+
+- [Telegram Alias](./extensions/app-aliases.json#L36)
+
+  **alias**
+  
+  [tg]
 
 ### [setting-shortcuts](./extensions/settings-shortcuts.json)
 
