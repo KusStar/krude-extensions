@@ -27,6 +27,17 @@
         "ig",
         "ins"
       ]
+    },
+    {
+      "id": "telegram-alias",
+      "required": [
+        "org.telegram.messenger"
+      ],
+      "name": "Telegram Alias",
+      "type": "alias",
+      "keywords": [
+        "tg"
+      ]
     }
   ]
 }
