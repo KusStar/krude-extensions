@@ -1,0 +1,36 @@
+{
+  "name": "clash-shortcuts",
+  "version": "1.0.0",
+  "main": [
+    {
+      "id": "clash-meta-toggle",
+      "required": [
+        "com.github.metacubex.clash.meta"
+      ],
+      "name": "Clash-Toggle",
+      "description": "Toggle Clash Meta",
+      "type": "action",
+      "uri": "com.github.metacubex.clash.meta.action.TOGGLE_CLASH"
+    },
+    {
+      "id": "clash-meta-start",
+      "required": [
+        "com.github.metacubex.clash.meta"
+      ],
+      "name": "Clash-Start",
+      "description": "Start Clash Meta",
+      "type": "action",
+      "uri": "com.github.metacubex.clash.meta.action.START_CLASH"
+    },
+    {
+      "id": "clash-meta-stop",
+      "required": [
+        "com.github.metacubex.clash.meta"
+      ],
+      "name": "Clash-Stop",
+      "description": "Stop Clash Meta",
+      "type": "action",
+      "uri": "com.github.metacubex.clash.meta.action.STOP_CLASH"
+    }
+  ]
+}
