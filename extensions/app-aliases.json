@@ -38,6 +38,17 @@
       "keywords": [
         "tg"
       ]
+    },
+    {
+      "id": "xiaomi-scanner-alias",
+      "required": [
+        "com.xiaomi.scanner"
+      ],
+      "name": "Xiaomi Scanner Alias",
+      "type": "alias",
+      "keywords": [
+        "扫一扫"
+      ]
     }
   ]
 }

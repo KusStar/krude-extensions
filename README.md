@@ -4,7 +4,7 @@ Extensions for [krude](https://github.com/KusStar/krude/blob/main/docs/EXTENSION
 
 ## List
 
-Extension Count: 56
+Extension Count: 57
 
 ### [china-apps-shortcuts](./extensions/china-apps-shortcuts.json)
 
@@ -299,6 +299,12 @@ Extension Count: 56
   **alias**
   
   [tg]
+
+- [Xiaomi Scanner Alias](./extensions/app-aliases.json#L47)
+
+  **alias**
+  
+  [扫一扫]
 
 ### [setting-shortcuts](./extensions/settings-shortcuts.json)
 
