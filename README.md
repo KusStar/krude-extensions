@@ -4,7 +4,7 @@ Extensions for [krude](https://github.com/KusStar/krude/blob/main/docs/EXTENSION
 
 ## List
 
-Extension Count: 57
+Extension Count: 63
 
 ### [china-apps-shortcuts](./extensions/china-apps-shortcuts.json)
 
@@ -199,6 +199,44 @@ Extension Count: 57
   **scheme**
   
   Gaode Amap My Location
+
+- [京东-扫一扫](./extensions/china-apps-shortcuts.json#L347)
+
+  **scheme**
+  
+  Jingdong QR Scan
+
+- [京东-搜索](./extensions/china-apps-shortcuts.json#L357)
+
+  **scheme**
+  
+  Jingdong Search
+
+- [京东-订单](./extensions/china-apps-shortcuts.json#L367)
+
+  **scheme**
+  
+  Jingdong Orderlist
+
+### [clash-shortcuts](./extensions/clash-shortcuts.json)
+
+- [Clash-Toggle](./extensions/clash-shortcuts.json#L10)
+
+  **action**
+  
+  Toggle Clash Meta
+
+- [Clash-Start](./extensions/clash-shortcuts.json#L20)
+
+  **action**
+  
+  Start Clash Meta
+
+- [Clash-Stop](./extensions/clash-shortcuts.json#L30)
+
+  **action**
+  
+  Stop Clash Meta
 
 ### [global-apps-shortcuts](./extensions/global-apps-shortcuts.json)
 
