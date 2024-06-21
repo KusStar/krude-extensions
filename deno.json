@@ -1,0 +1,16 @@
+{
+  "imports": {
+    "hono": "jsr:@hono/hono@^4.4.7"
+  },
+  "tasks": {
+    "start": "deno serve --allow-read --allow-env server.ts",
+    "dev": "deno serve --watch --allow-all server.ts",
+    "gen": "deno task gen:list && deno task gen:extensions",
+    "gen:list": "deno run --allow-all gen-list.ts",
+    "gen:extensions": "deno run --allow-all gen-extensions.ts"
+  },
+  "compilerOptions": {
+    "jsx": "precompile",
+    "jsxImportSource": "hono/jsx"
+  }
+}

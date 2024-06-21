@@ -1,0 +1,42 @@
+{
+  "version": "3",
+  "packages": {
+    "specifiers": {
+      "jsr:@hono/hono@^4.4.7": "jsr:@hono/hono@4.4.7"
+    },
+    "jsr": {
+      "@hono/hono@4.4.7": {
+        "integrity": "069f612a089362e59786ea925d19fa834096fe92bf4f4b8dd572c508a3a708aa"
+      }
+    }
+  },
+  "redirects": {
+    "jsr:@hono/hono@^4.4.7": "https://jsr.io/@hono/hono/4.4.7/src/index.ts"
+  },
+  "remote": {
+    "https://jsr.io/@hono/hono/4.4.7/src/compose.ts": "c0d43839488cd878398961c5a9338dbd1080ffec911972592c3df030b59010e3",
+    "https://jsr.io/@hono/hono/4.4.7/src/context.ts": "8f0f81cf10654d7874dd6f837618bd05dff1a847e42347829ad4b1c4e53ef7b9",
+    "https://jsr.io/@hono/hono/4.4.7/src/hono-base.ts": "4145e05a4ab251b0debb7bf16ce3b4514b8215100655a0adc99c7f9a0ce897aa",
+    "https://jsr.io/@hono/hono/4.4.7/src/hono.ts": "b05bb169150a366d3d8a704d1c6218e44008ed18125cf65ebefbaa5ca371fba6",
+    "https://jsr.io/@hono/hono/4.4.7/src/index.ts": "1266b9fcff006332b400682065140f02b3210f2cc6ec59d458d4a2e0ee22f155",
+    "https://jsr.io/@hono/hono/4.4.7/src/request.ts": "20add87df0f5ca99360bb8c2705284bb3b668e727e984e2ebf3f46fb4c79959d",
+    "https://jsr.io/@hono/hono/4.4.7/src/router.ts": "61db3b5e0a9c0c055e38882bb25c900418b324b398397e9466090f37ce34e90f",
+    "https://jsr.io/@hono/hono/4.4.7/src/router/reg-exp-router/index.ts": "45d04816568f9d6e68e6e19c8baf5ae96d8072959c4ebb4392c5b636dd5e078f",
+    "https://jsr.io/@hono/hono/4.4.7/src/router/reg-exp-router/node.ts": "7efaa6f4301efc2aad0519c84973061be8555da02e5868409293a1fd98536aaf",
+    "https://jsr.io/@hono/hono/4.4.7/src/router/reg-exp-router/router.ts": "2eb452514e5a14c64ce9789dc986fe88808b767cfcc8043a8388fd3d7a82424b",
+    "https://jsr.io/@hono/hono/4.4.7/src/router/reg-exp-router/trie.ts": "3a01bb0c27d7a71ff0c5cd6e4991da2d5a4c8c07d082a9922329f6fb2bdb4ce0",
+    "https://jsr.io/@hono/hono/4.4.7/src/router/smart-router/index.ts": "b27bcd7c1cfb23fd552a44b12c4d2b8bae15178c706473bbb44b2c21fc5aff9d",
+    "https://jsr.io/@hono/hono/4.4.7/src/router/smart-router/router.ts": "8c84362d94a23652663c62a45533ea6b8385778f68e7ae296eccea54b6ae049c",
+    "https://jsr.io/@hono/hono/4.4.7/src/router/trie-router/index.ts": "357e59644e2e3e8cb71efb01ab68709f6d5059f9b8d440d073053e924d6db30c",
+    "https://jsr.io/@hono/hono/4.4.7/src/router/trie-router/node.ts": "99106d17ac363002a46d432466179a7281ae56c7ea0b8d38c363bdc2e671c935",
+    "https://jsr.io/@hono/hono/4.4.7/src/router/trie-router/router.ts": "54ced78d35676302c8fcdda4204f7bdf5a7cc907fbf9967c75674b1e394f830d",
+    "https://jsr.io/@hono/hono/4.4.7/src/utils/body.ts": "1cdae87451eabf16df72c555b5d4a8cada9fa64aee6824b008917a7cb10ad80c",
+    "https://jsr.io/@hono/hono/4.4.7/src/utils/html.ts": "63b64db8ba75130dc6bd25c7154b8be7c7674bee71df51450b65dd792929c7e6",
+    "https://jsr.io/@hono/hono/4.4.7/src/utils/url.ts": "8c0d67631d7ba7f6efd20770634fffdc9760613a185422d2b7c01c60dcfa341d"
+  },
+  "workspace": {
+    "dependencies": [
+      "jsr:@hono/hono@^4.4.7"
+    ]
+  }
+}

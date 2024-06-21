@@ -1,35 +1,23 @@
-import { Glob } from "bun";
+import { ExtensionRepo } from './types.ts'
 
-const glob = new Glob("*");
+import { Hono } from 'hono'
+import { serveStatic } from 'hono/deno'
+import extensions from "./extensions.json" with { type: "json" };
 
-const port = 12345
+const host = Deno.env.get('HOST') || 'http://localhost:8000'
 
-const server = Bun.serve({
-  async fetch(req) {
-    const path = new URL(req.url).pathname;
+const app = new Hono()
 
-    if (path === "/ping") return new Response("pong");
+app.use('/extensions/*', serveStatic({ root: './' }))
 
-    if (path === "/") {
-      const data = []
-      for (const file of glob.scanSync("./extensions")) {
-        data.push({
-          name: file,
-          download_url: `http://localhost:${port}/download/${file}`
-        });
-      }
-      return Response.json(data);
-    }
+app.get("/ping", c => c.text("pong"))
 
-    if (path.startsWith("/download/")) {
-      const file = path.replaceAll("/download/", "");
-      const content = await Bun.file(`./extensions/${file}`).json();
-      return Response.json(content);
-    }
-
-    return new Response("Page not found", { status: 404 });
-  },
-  port
+app.get('/', (c) => {
+  const data: ExtensionRepo[] = extensions.map(e => ({
+    ...e,
+    download_url: host + e.download_url
+  }))
+  return c.json(data)
 })
 
-console.log(`Listening on ${server.url}`);
+export default app
