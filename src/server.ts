@@ -2,7 +2,7 @@ import { ExtensionRepo } from './types.ts'
 
 import { Hono } from 'hono'
 import { serveStatic } from 'hono/deno'
-import extensions from "./extensions.json" with { type: "json" };
+import extensions from "../extensions.json" with { type: "json" };
 import { logger } from 'hono/logger'
 import { etag } from 'hono/etag'
 import { cache } from 'hono/cache'

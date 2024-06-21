@@ -1,4 +1,4 @@
-import { ExtensionRepo } from './types.ts'
+import { ExtensionRepo } from '../src/types.ts'
 
 async function gitHashObject(file: string) {
   const command = new Deno.Command("git", {
