@@ -1,32 +1,32 @@
 [
   {
     "name": "app-aliases.json",
-    "download_url": "/extensions/app-aliases.json",
+    "download_url": "/extensions/app-aliases.json?sha=e85a2a9c9ee6640dd0690933a06f72d1e3405333",
     "sha": "e85a2a9c9ee6640dd0690933a06f72d1e3405333"
   },
   {
     "name": "china-apps-shortcuts.json",
-    "download_url": "/extensions/china-apps-shortcuts.json",
+    "download_url": "/extensions/china-apps-shortcuts.json?sha=6dd248c21ad63716a77386a23ef0e090e45c8512",
     "sha": "6dd248c21ad63716a77386a23ef0e090e45c8512"
   },
   {
     "name": "clash-shortcuts.json",
-    "download_url": "/extensions/clash-shortcuts.json",
+    "download_url": "/extensions/clash-shortcuts.json?sha=1c5c8d25ec2e7b1d759e215e84c3236eefe4b153",
     "sha": "1c5c8d25ec2e7b1d759e215e84c3236eefe4b153"
   },
   {
     "name": "global-apps-shortcuts.json",
-    "download_url": "/extensions/global-apps-shortcuts.json",
+    "download_url": "/extensions/global-apps-shortcuts.json?sha=c150557d4b1d9f831c319067c33024071da6ea77",
     "sha": "c150557d4b1d9f831c319067c33024071da6ea77"
   },
   {
     "name": "miui-shortcuts.json",
-    "download_url": "/extensions/miui-shortcuts.json",
+    "download_url": "/extensions/miui-shortcuts.json?sha=d4a68959b6044892ec6565a74533f0bd8e27ee17",
     "sha": "d4a68959b6044892ec6565a74533f0bd8e27ee17"
   },
   {
     "name": "settings-shortcuts.json",
-    "download_url": "/extensions/settings-shortcuts.json",
+    "download_url": "/extensions/settings-shortcuts.json?sha=82ea0479c23962bd29f0191642e93527d1cb733c",
     "sha": "82ea0479c23962bd29f0191642e93527d1cb733c"
   }
 ]

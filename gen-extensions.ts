@@ -20,7 +20,7 @@ for await (const file of Deno.readDir(`./extensions`)) {
   const sha = await gitHashObject(`./extensions/${file.name}`);
   data.push({
     name: file.name,
-    download_url: `/extensions/${file.name}`,
+    download_url: `/extensions/${file.name}?sha=${sha}`,
     sha: sha
   });
 }
