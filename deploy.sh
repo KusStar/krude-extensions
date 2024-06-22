@@ -1,4 +1,8 @@
+#!bin/bash
+
 set -e
+
+# all podman can be replaced with docker if you have docker installed
 
 podman stop krude-extensions || echo 1
 

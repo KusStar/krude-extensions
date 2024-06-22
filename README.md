@@ -2,6 +2,18 @@
 
 Extensions for [krude](https://github.com/KusStar/krude/blob/main/docs/EXTENSION.md).
 
+## Deploy
+
+- Deploy with [Deno Deploy](https://docs.deno.com/deploy/manual#deploy-your-existing-project)
+
+- Self-hosted with [Podman](https://podman.io/docs/installation), run [deploy.sh](./deploy.sh) to deploy
+
+  ```shell
+  sh deploy.sh
+  ```
+
+  Deploy with Docker is the same, just replace `podman` with `docker`
+
 ## List
 
 Extension Count: 63
