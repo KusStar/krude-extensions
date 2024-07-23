@@ -4,7 +4,7 @@
   },
   "tasks": {
     "start": "deno serve --allow-read --allow-env src/server.ts",
-    "dev": "deno serve --watch --allow-all src/server.ts",
+    "dev": "DEV=true deno serve --watch --allow-all src/server.ts",
     "gen": "deno task gen:list && deno task gen:extensions",
     "gen:list": "deno run --allow-all scripts/gen-list.ts",
     "gen:extensions": "deno run --allow-all scripts/gen-extensions.ts"

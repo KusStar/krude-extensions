@@ -8,21 +8,29 @@ import { etag } from 'hono/etag'
 import { cache } from 'hono/cache'
 import { compress } from 'hono/compress'
 
+const DEV = Deno.env.get('DEV') === 'true'
+
+if (DEV) {
+  console.log('Running in DEV mode')
+}
+
 const host = Deno.env.get('HOST') || 'http://localhost:8000'
 
 const app = new Hono()
 
 app.use(logger())
 app.use(compress())
-app.use(etag())
 
 // /extensions
-app.use('/extensions/*', cache({
-  cacheName: 'krude-extensions',
-  // 1 year
-  cacheControl: 'max-age=31536000',
-  wait: true,
-}))
+if (!DEV) {
+  app.use(etag())
+  app.use('/extensions/*', cache({
+    cacheName: 'krude-extensions',
+    // 1 year
+    cacheControl: 'max-age=31536000',
+    wait: true,
+  }))
+}
 app.use('/extensions/*', serveStatic({ root: './' }))
 
 app.get("/ping", c => c.text("pong"))
@@ -30,7 +38,8 @@ app.get("/ping", c => c.text("pong"))
 app.get('/', (c) => {
   const data: ExtensionRepo[] = extensions.map(e => ({
     ...e,
-    download_url: host + e.download_url
+    download_url: host + e.download_url,
+    sha: DEV ? Date.now().toString() : e.sha,
   }))
   return c.json(data)
 })
