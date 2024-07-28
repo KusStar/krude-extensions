@@ -16,7 +16,7 @@ Extensions for [krude](https://github.com/KusStar/krude/blob/main/docs/EXTENSION
 
 ## List
 
-Extension Count: 63
+Extension Count: 71
 
 ### [china-apps-shortcuts](./extensions/china-apps-shortcuts.json)
 
@@ -370,7 +370,7 @@ Extension Count: 63
   
   Bluetooth Setting
 
-- [Settings-All apps | 设置-应用](./extensions/settings-shortcuts.json#L38)
+- [Settings-All apps | 设置-所有应用](./extensions/settings-shortcuts.json#L38)
 
   **action**
   
@@ -441,4 +441,52 @@ Extension Count: 63
   **action**
   
   Application Setting
+
+- [Settings-Device Info | 设置-设备信息](./extensions/settings-shortcuts.json#L218)
+
+  **action**
+  
+  Device Info
+
+- [Settings-Battery Optimization | 设置-电池优化](./extensions/settings-shortcuts.json#L233)
+
+  **action**
+  
+  Battery Optimization
+
+- [Settings-Input Method | 设置-语言与输入法](./extensions/settings-shortcuts.json#L248)
+
+  **action**
+  
+  Input Method
+
+- [Settings-Internal Storage | 设置-存储空间](./extensions/settings-shortcuts.json#L263)
+
+  **action**
+  
+  Internal Storage
+
+- [Settings-All files Access Permission | 设置-所有文件访问权限](./extensions/settings-shortcuts.json#L278)
+
+  **action**
+  
+  All files Access Permission
+
+- [Settings-Default Apps | 设置-默认应用](./extensions/settings-shortcuts.json#L293)
+
+  **action**
+  
+  Default Apps
+
+- [Settings-Overlay Permission | 设置-悬浮窗权限](./extensions/settings-shortcuts.json#L308)
+
+  **action**
+  
+  Overlay Permission
+
+- [Settings-Unknow App Sources | 设置-安装未知应用](./extensions/settings-shortcuts.json#L323)
+
+  **action**
+  
+  Unknow App Sources
 
