@@ -44,7 +44,7 @@
       ],
       "i18n": {
         "zh": {
-          "name": "设置-应用"
+          "name": "设置-所有应用"
         }
       }
     },
@@ -210,6 +210,126 @@
       "i18n": {
         "zh": {
           "name": "设置-应用设置"
+        }
+      }
+    },
+    {
+      "id": "settings-device-info",
+      "name": "Settings-Device Info",
+      "description": "Device Info",
+      "type": "action",
+      "uri": "android.settings.DEVICE_INFO_SETTINGS",
+      "required": [
+        "com.android.settings"
+      ],
+      "i18n": {
+        "zh": {
+          "name": "设置-设备信息"
+        }
+      }
+    },
+    {
+      "id": "settings-battery-optimization",
+      "name": "Settings-Battery Optimization",
+      "description": "Battery Optimization",
+      "type": "action",
+      "uri": "android.settings.IGNORE_BATTERY_OPTIMIZATION_SETTINGS",
+      "required": [
+        "com.android.settings"
+      ],
+      "i18n": {
+        "zh": {
+          "name": "设置-电池优化"
+        }
+      }
+    },
+    {
+      "id": "settings-input-method",
+      "name": "Settings-Input Method",
+      "description": "Input Method",
+      "type": "action",
+      "uri": "android.settings.INPUT_METHOD_SETTINGS",
+      "required": [
+        "com.android.settings"
+      ],
+      "i18n": {
+        "zh": {
+          "name": "设置-语言与输入法"
+        }
+      }
+    },
+    {
+      "id": "settings-internal-storage",
+      "name": "Settings-Internal Storage",
+      "description": "Internal Storage",
+      "type": "action",
+      "uri": "android.settings.INTERNAL_STORAGE_SETTINGS",
+      "required": [
+        "com.android.settings"
+      ],
+      "i18n": {
+        "zh": {
+          "name": "设置-存储空间"
+        }
+      }
+    },
+    {
+      "id": "settings-all-files-access-permission",
+      "name": "Settings-All files Access Permission",
+      "description": "All files Access Permission",
+      "type": "action",
+      "uri": "android.settings.MANAGE_ALL_FILES_ACCESS_PERMISSION",
+      "required": [
+        "com.android.settings"
+      ],
+      "i18n": {
+        "zh": {
+          "name": "设置-所有文件访问权限"
+        }
+      }
+    },
+    {
+      "id": "settings-default-apps",
+      "name": "Settings-Default Apps",
+      "description": "Default Apps",
+      "type": "action",
+      "uri": "android.settings.MANAGE_DEFAULT_APPS_SETTINGS",
+      "required": [
+        "com.android.settings"
+      ],
+      "i18n": {
+        "zh": {
+          "name": "设置-默认应用"
+        }
+      }
+    },
+    {
+      "id": "settings-overlay-permission",
+      "name": "Settings-Overlay Permission",
+      "description": "Overlay Permission",
+      "type": "action",
+      "uri": "android.settings.action.MANAGE_OVERLAY_PERMISSION",
+      "required": [
+        "com.android.settings"
+      ],
+      "i18n": {
+        "zh": {
+          "name": "设置-悬浮窗权限"
+        }
+      }
+    },
+    {
+      "id": "settings-unknown-app-sources",
+      "name": "Settings-Unknow App Sources",
+      "description": "Unknow App Sources",
+      "type": "action",
+      "uri": "android.settings.MANAGE_UNKNOWN_APP_SOURCES",
+      "required": [
+        "com.android.settings"
+      ],
+      "i18n": {
+        "zh": {
+          "name": "设置-安装未知应用"
         }
       }
     }
