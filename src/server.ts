@@ -38,7 +38,7 @@ app.get("/ping", c => c.text("pong"))
 app.get('/', (c) => {
   const data: ExtensionRepo[] = extensions.map(e => ({
     ...e,
-    download_url: host + e.download_url,
+    download_url: host + e.download_url + "&ts=" + Date.now(),
     sha: DEV ? Date.now().toString() : e.sha,
   }))
   return c.json(data)
