@@ -466,23 +466,23 @@ Extension Count: 71
   
   Internal Storage
 
-- [Settings-All files Access Permission | 设置-所有文件访问权限](./extensions/settings-shortcuts.json#L278)
+- [Settings-All files Access | 设置-所有文件访问权限](./extensions/settings-shortcuts.json#L278)
 
   **action**
   
-  All files Access Permission
+  Manage All files Access
 
 - [Settings-Default Apps | 设置-默认应用](./extensions/settings-shortcuts.json#L293)
 
   **action**
   
-  Default Apps
+  Manage Default Apps
 
-- [Settings-Overlay Permission | 设置-悬浮窗权限](./extensions/settings-shortcuts.json#L308)
+- [Settings-Overlay | 设置-悬浮窗权限](./extensions/settings-shortcuts.json#L308)
 
   **action**
   
-  Overlay Permission
+  Manage display over other apps
 
 - [Settings-Unknow App Sources | 设置-安装未知应用](./extensions/settings-shortcuts.json#L323)
 

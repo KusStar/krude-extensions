@@ -275,8 +275,8 @@
     },
     {
       "id": "settings-all-files-access-permission",
-      "name": "Settings-All files Access Permission",
-      "description": "All files Access Permission",
+      "name": "Settings-All files Access",
+      "description": "Manage All files Access",
       "type": "action",
       "uri": "android.settings.MANAGE_ALL_FILES_ACCESS_PERMISSION",
       "required": [
@@ -291,7 +291,7 @@
     {
       "id": "settings-default-apps",
       "name": "Settings-Default Apps",
-      "description": "Default Apps",
+      "description": "Manage Default Apps",
       "type": "action",
       "uri": "android.settings.MANAGE_DEFAULT_APPS_SETTINGS",
       "required": [
@@ -305,8 +305,8 @@
     },
     {
       "id": "settings-overlay-permission",
-      "name": "Settings-Overlay Permission",
-      "description": "Overlay Permission",
+      "name": "Settings-Overlay",
+      "description": "Manage display over other apps",
       "type": "action",
       "uri": "android.settings.action.MANAGE_OVERLAY_PERMISSION",
       "required": [
