@@ -7,6 +7,7 @@ import { logger } from 'hono/logger'
 import { etag } from 'hono/etag'
 import { cache } from 'hono/cache'
 import { compress } from 'hono/compress'
+import { cors } from 'hono/cors'
 
 const DEV = Deno.env.get('DEV') === 'true'
 
@@ -20,6 +21,7 @@ const app = new Hono()
 
 app.use(logger())
 app.use(compress())
+app.use(cors())
 
 // /extensions
 if (!DEV) {
