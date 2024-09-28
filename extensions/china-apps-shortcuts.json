@@ -368,6 +368,16 @@
       "description": "Jingdong Orderlist",
       "type": "scheme",
       "uri": "openjd://virtual?params={\"category\":\"jump\", \"des\":\"orderlist\"}"
+    },
+    {
+      "id": "feishu-scan",
+      "required": [
+        "com.ss.android.lark"
+      ],
+      "name": "飞书-扫一扫",
+      "description": "Feishu Scan",
+      "type": "scheme",
+      "uri": "feishu://applink.feishu.cn/client/qrcode/main"
     }
   ]
 }
