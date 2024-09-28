@@ -16,7 +16,7 @@ Extensions for [krude](https://github.com/KusStar/krude/blob/main/docs/EXTENSION
 
 ## List
 
-Extension Count: 72
+Extension Count: 73
 
 ### [china-apps-shortcuts](./extensions/china-apps-shortcuts.json)
 
@@ -206,31 +206,37 @@ Extension Count: 72
   
   Xiaohongshu Search
 
-- [高德-我的位置](./extensions/china-apps-shortcuts.json#L337)
+- [小红书-消息](./extensions/china-apps-shortcuts.json#L337)
+
+  **scheme**
+  
+  Xiaohongshu Messages
+
+- [高德-我的位置](./extensions/china-apps-shortcuts.json#L347)
 
   **scheme**
   
   Gaode Amap My Location
 
-- [京东-扫一扫](./extensions/china-apps-shortcuts.json#L347)
+- [京东-扫一扫](./extensions/china-apps-shortcuts.json#L357)
 
   **scheme**
   
   Jingdong QR Scan
 
-- [京东-搜索](./extensions/china-apps-shortcuts.json#L357)
+- [京东-搜索](./extensions/china-apps-shortcuts.json#L367)
 
   **scheme**
   
   Jingdong Search
 
-- [京东-订单](./extensions/china-apps-shortcuts.json#L367)
+- [京东-订单](./extensions/china-apps-shortcuts.json#L377)
 
   **scheme**
   
   Jingdong Orderlist
 
-- [飞书-扫一扫](./extensions/china-apps-shortcuts.json#L377)
+- [飞书-扫一扫](./extensions/china-apps-shortcuts.json#L387)
 
   **scheme**
   
