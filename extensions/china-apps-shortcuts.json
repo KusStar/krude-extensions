@@ -330,6 +330,16 @@
       "uri": "xhsdiscover://search/recommend"
     },
     {
+      "id": "xhs-messages",
+      "required": [
+        "com.xingin.xhs"
+      ],
+      "name": "小红书-消息",
+      "description": "Xiaohongshu Messages",
+      "type": "scheme",
+      "uri": "xhsdiscover://messages"
+    },
+    {
       "id": "amap-my-location",
       "required": [
         "com.autonavi.minimap"
