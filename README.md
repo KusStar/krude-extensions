@@ -16,7 +16,7 @@ Extensions for [krude](https://github.com/KusStar/krude/blob/main/docs/EXTENSION
 
 ## List
 
-Extension Count: 71
+Extension Count: 72
 
 ### [china-apps-shortcuts](./extensions/china-apps-shortcuts.json)
 
@@ -229,6 +229,12 @@ Extension Count: 71
   **scheme**
   
   Jingdong Orderlist
+
+- [飞书-扫一扫](./extensions/china-apps-shortcuts.json#L377)
+
+  **scheme**
+  
+  Feishu Scan
 
 ### [clash-shortcuts](./extensions/clash-shortcuts.json)
 
