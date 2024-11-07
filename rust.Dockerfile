@@ -30,6 +30,8 @@ COPY --from=builder /app/rust/target/release/kexts-rs .
 # Set environment variables
 ENV EXTENSIONS_DIR=/extensions
 ENV EXTENSIONS_JSON=/extensions.json
+ENV HOST https://kexts.uselessthing.top 
+
 ENV RUST_LOG=info
 ENV RUST_BACKTRACE=1
 
