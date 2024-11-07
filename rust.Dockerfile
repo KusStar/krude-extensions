@@ -11,8 +11,7 @@ COPY extensions extensions
 WORKDIR /app/rust
 
 # Build for release
-RUN --mount=type=cache,target=/usr/local/cargo/registry \
-    cargo build --release
+RUN cargo build --release
 # RUN strip /app/rust/target/release/kexts-rs
 
 # Final stage
